@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Simone Rigoni · giochi e app</title>
+<meta name="description" content="Giochi e app di Simone Rigoni. Il primo: Colata, il gioco di tempismo con il metallo fuso.">
+<meta name="theme-color" content="#140D09">
+<link rel="icon" href="colata/icona.png?v=4">
+<link rel="stylesheet" href="colata/stile.css?v=4">
+<style>
+  .studio { text-align: center; padding: 56px 0 24px; }
+  .studio h1 { font: 900 clamp(34px, 8vw, 52px)/1.05 Georgia, serif; margin: 0 0 10px; }
+  .studio p { color: var(--tenue); margin: 0 auto; max-width: 520px; }
+  .giochi { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; margin-top: 34px; }
+  .gioco { display: flex; gap: 16px; align-items: center; text-decoration: none; color: inherit; background: linear-gradient(180deg, var(--carta), var(--fondo2)); border: 1px solid var(--bordo); border-radius: 20px; padding: 16px; }
+  .gioco img { width: 88px; height: 88px; border-radius: 20px; flex: none; box-shadow: 0 8px 26px rgba(255, 120, 20, .3); }
+  .gioco h2 { font: 800 22px Georgia, serif; text-align: left; margin: 0 0 4px; color: var(--oro); }
+  .gioco p { margin: 0; color: var(--tenue); font-size: 15px; }
+  .gioco .stato { display: inline-block; margin-top: 8px; font-size: 13px; font-weight: 700; color: #2A1406; background: linear-gradient(180deg, var(--oro), var(--fuso)); border-radius: 999px; padding: 3px 10px; }
+  .presto { opacity: .55; border-style: dashed; justify-content: center; text-align: center; min-height: 120px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <section class="studio">
+    <h1>Simone Rigoni</h1>
+    <p>Giochi e app fatti con cura in Italia. · <span lang="en">Games and apps, made with care in Italy.</span></p>
+  </section>
+
+  <div class="giochi">
+    <a class="gioco" href="colata/">
+      <img src="colata/icona.png?v=4" alt="Icona di Colata">
+      <div>
+        <h2>Colata</h2>
+        <p>Tieni premuto, versa il metallo fuso e lascia proprio sulla linea.</p>
+        <span class="stato">In arrivo su App Store</span>
+      </div>
+    </a>
+    <div class="gioco presto"><p>Il prossimo è in fucina… · <span lang="en">More coming soon…</span></p></div>
+  </div>
+
+  <footer>
+    <nav><a href="colata/privacy.html">Privacy di Colata</a><a href="colata/termini.html">Termini di Colata</a><a href="mailto:job.rigoni@gmail.com">Contatti</a></nav>
+    © 2026 Simone Rigoni
+  </footer>
+</div>
+</body>
+</html>
